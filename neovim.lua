@@ -1,11 +1,8 @@
 return {
     {
         "ArkSum/cosmic-cliffs.nvim",
-        config = function()
-            require("cosmic-cliffs").colorscheme()
-        end,
         priority = 1000,
-        opts = {},
+        opts = { config = true },
     },
     {
         "LazyVim/LazyVim",
