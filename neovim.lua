@@ -3,7 +3,7 @@ return {
         "ArkSum/cosmic-cliffs.nvim",
         name = "cosmic-cliffs",
         config = function()
-            require("cosmic-cliffs").setup()
+            require("cosmic-cliffs").colorscheme()
         end,
         priority = 1000,
         opts = {},
@@ -13,4 +13,3 @@ return {
         opts = {},
     },
 }
-
