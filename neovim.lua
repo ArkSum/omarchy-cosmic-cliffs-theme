@@ -1,8 +1,8 @@
 return {
     {
         "ArkSum/cosmic-cliffs.nvim",
+        lazy = true,
         priority = 1000,
-        opts = { config = true },
     },
     {
         "LazyVim/LazyVim",
