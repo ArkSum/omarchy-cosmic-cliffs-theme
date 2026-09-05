@@ -1,0 +1,44 @@
+{
+    // For a Firefox Theme
+    "manifest_version": 3,
+    "name": "Cosmic Cliffs Color Theme",
+    "version": "1.0",
+
+    "description": "Colors according to the Omarchy Cosmic Cliffs Theme",
+
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "cosmic-cliffs@mozilla.org",
+            "data_collection_permissions": {
+                "required": ["none"]
+            }
+        }
+    },
+
+    "theme": {
+        "colors": {
+            "frame": "#0e091b",
+            "button_background_active": "#7930c3",
+            "button_background_hover": "#7930c3",
+            "tab_text": "#ecdbd4",
+            "tab_background_text": "#ecdbd4",
+            "icons": "#ecdbd4",
+            "ntp_background": "#2a1f48",
+            "ntp_card_background": "#4b3c74",
+            "ntp_text": "#a39bbb",
+            "popup": "#2a1f48",
+            "popup_border": "#a39bbb",
+            "popup_highlight": "#456aff",
+            "popup_text": "#d6d3df",
+            "tab_line": "#df9c5e",
+            "tab_loading": "#7930c3",
+            "tab_selected": "#71619f",
+            "toolbar": "#71619f",
+            "toolbar_field": "#a39bbb",
+            "toolbar_field_border_focus": "#df9c5e",
+            "toolbar_field_highlight": "#456aff",
+            "toolbar_field_highlight_text": "#ecdbd4",
+            "toolbar_field_text": "#0e091b"
+        }
+    }
+}
